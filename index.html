@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Techyjaunt Assignment</title>
+</head>
+
+<body>
+    <nav>
+        <h2>My First Webpage </h2>
+        <ul>
+            <li><a href="#content">Webpage Contents</a></li>
+            <li><a href="#table">Information Table</a></li>
+            <li><a href="#contact">Contact Form</a></li>
+        </ul>
+    </nav>
+    <img src="img/image01.jpg">
+    <p>This is a simple paragraph describing the content of a webpage. It explains the purpose of the page and provides
+        some basic information about the users can expect to find. </p><br><br><br>
+    <a href="https://forms,gle/8LXKUyBTWwHFqnk96" target="_blank">Vist TechyJaunt</a><br><br><br>
+
+    <!-- content section start -->
+    <div class="content" id="content">
+        <h3>Webpage Contents</h3>
+        <ul>
+            <li>Introduction</li>
+            <li>Table of Information</li>
+            <li>Contact Form</li>
+        </ul>
+    </div><br><br><br>
+    <!-- content section end -->
+
+    <!-- table section start -->
+    <h3>Information Table</h3>
+    <div class="table" id="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Quatity</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Pen</td>
+                <td>Blue Ink Pens</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Notebooks</td>
+                <td>Spiral-bound Notebooks</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Markers</td>
+                <td>Permanent Markers</td>
+                <td>2</td>
+            </tr>
+        </table>
+    </div><br><br><br>
+    <!-- table section end -->
+
+    <!-- contact section start -->
+    <div class="contact" id="contact">
+        <form action="#">
+            <h3>Contact Form</h3>
+            <label for="name">Name:</label><input type="text"><br><br>
+            <label for="email">Email:</label><input type="text"><br><br>
+            <label for="password">Password:</label><input type="text"><br><br>
+            <label for="gender">Gender:</label><label for="male">Male</label><input type="radio" name="gender"><label
+                for="female">Female</label><input type="radio" name="gender"><br><br>
+            <label for="subscribe">Subscribe:</label><input type="checkbox"><label>Yes, I want to
+                subscribe</label><br><br>
+            <label for="number">Number of items:</label><input type="number"><br><br>
+            <label for="date">Date:</label><input type="date"><br><br>
+            <label for="message">Message:</label><br><textarea name="message" id="" cols="40"
+                rows="4"></textarea><br><br><br>
+            <button>Submit</button>
+        </form>
+    </div>
+    <!-- contact section end -->
+</body>
+
+</html>
